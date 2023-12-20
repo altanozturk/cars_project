@@ -12,6 +12,7 @@ const str = new Storage();
 
 
 // Tüm Eventleri Yükleme
+// Load all cars ile başlatma
 
 eventListeners();
 loadAllCars();
