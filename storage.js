@@ -34,3 +34,9 @@ Storage.prototype.getCarsFromLS = function () {
     return cars;
 };
 
+Storage.prototype.deleteAllCarsFromLS = function(){
+
+    localStorage.clear();
+
+};
+
